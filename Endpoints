@@ -1,0 +1,2 @@
+http://transfer.ttc.com.ge:8080/otp/routers/ttc/stopArrivalTimes?stopId=1858 (For Stops)
+http://transfer.ttc.com.ge:8080/otp/routers/ttc/routeStops?routeNumber=342&forward=1 (For Buses)
