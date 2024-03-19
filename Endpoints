@@ -1,2 +1,3 @@
-http://transfer.ttc.com.ge:8080/otp/routers/ttc/stopArrivalTimes?stopId=1858 (For Stops)
-http://transfer.ttc.com.ge:8080/otp/routers/ttc/routeStops?routeNumber=342&forward=1 (For Buses)
+http://transfer.ttc.com.ge:8080/otp/routers/ttc/stopArrivalTimes?stopId=1858 (For Stops) XML
+http://transfer.ttc.com.ge:8080/otp/routers/ttc/routeStops?routeNumber=342&forward=1 (For Buses) XML
+https://transfer.msplus.ge:1443/otp/routers/ttc/index/stops (Fetch All Bus Stops) JSON
