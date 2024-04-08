@@ -2,3 +2,22 @@ http://transfer.ttc.com.ge:8080/otp/routers/ttc/stopArrivalTimes?stopId=1858 (Fo
 http://transfer.ttc.com.ge:8080/otp/routers/ttc/routeStops?routeNumber=342&forward=1 (For Buses) XML
 https://transfer.msplus.ge:1443/otp/routers/ttc/index/stops (Fetch All Bus Stops) JSON
 https://bankofgeorgia.ge/api/currencies/history/ (BOG Currency History)
+
+// კონვერტაციის ლოგიკები ანალოგიურად მუშაობს ყველა ვალუტაზე რაც არის საქართველოს ბანკში
+https://bankofgeorgia.ge/api/currencies/convert/GEL/USD?amountFrom=100 (კონვერტაცია ლარიდან დოლარში)
+https://bankofgeorgia.ge/api/currencies/convert/USD/GEL?amountFrom=100 (კონვერტაცია დოლარიდან ლარში)
+https://bankofgeorgia.ge/api/currencies/convert/GEL/EUR?amountFrom=100 (კონვერტაცია ლარიდან ევროში)
+https://bankofgeorgia.ge/api/currencies/convert/EUR/GEL?amountFrom=100 (კონვერტაცია ევროდან ლარში)
+
+ვალუტების ამჟამინდელი კურსების წამოსაღებად 
+https://bankofgeorgia.ge/api/currencies/history/ (BOG Currency History)
+მაგალითი ვიზუალის:
+https://bankofgeorgia.ge/ka/currencies#commercial-rates
+
+//ვაკანსიების endpoint-ი
+https://recruting.dkcapital.ge/api/public/vacancy/LoadRegion (რეგიონების სია)
+https://recruting.dkcapital.ge/api/public/categories (კატეგორიები)
+https://recruting.dkcapital.ge/api/public/vacancy/v2/search?type=vip (VIP ვაკანსიების წამოღება)
+https://recruting.dkcapital.ge/api/public/vacancy/v2/search?page=undefined&id=2&type=w_s (type ის მიხედვით წამოღება)
+https://recruting.dkcapital.ge/api/public/vacancy/v2/search?page=&searchKeyword=კურიერი&region=&minPrice=&maxPrice= (სერჩის API მისამართი) (მაგ:კურიერი)
+
