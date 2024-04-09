@@ -13,6 +13,9 @@ https://bankofgeorgia.ge/api/currencies/convert/EUR/GEL?amountFrom=100 (კო�
 https://bankofgeorgia.ge/api/currencies/history/ (BOG Currency History)
 მაგალითი ვიზუალის:
 https://bankofgeorgia.ge/ka/currencies#commercial-rates
+//სამომხმარებლო სესხის კალკულაიცა
+https://bankofgeorgia.ge/api/main-page/calculate?ccy=${ვალუტა მაგ USD/GEL}&paymentCount=${თვეების რაოდენობა}&principalAmount=${თანხა}&loanType=CNS
+https://bankofgeorgia.ge/api/main-page/calculate?ccy=GEL&paymentCount=22&principalAmount=125000&loanType=CNS
 
 //ვაკანსიების endpoint-ი
 https://recruting.dkcapital.ge/api/public/vacancy/LoadRegion (რეგიონების სია)
