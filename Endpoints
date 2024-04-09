@@ -1,7 +1,7 @@
 http://transfer.ttc.com.ge:8080/otp/routers/ttc/stopArrivalTimes?stopId=1858 (For Stops) XML
 http://transfer.ttc.com.ge:8080/otp/routers/ttc/routeStops?routeNumber=342&forward=1 (For Buses) XML
 https://transfer.msplus.ge:1443/otp/routers/ttc/index/stops (Fetch All Bus Stops) JSON
-https://bankofgeorgia.ge/api/currencies/history/ (BOG Currency History)
+
 
 // კონვერტაციის ლოგიკები ანალოგიურად მუშაობს ყველა ვალუტაზე რაც არის საქართველოს ბანკში
 https://bankofgeorgia.ge/api/currencies/convert/GEL/USD?amountFrom=100 (კონვერტაცია ლარიდან დოლარში)
@@ -20,4 +20,9 @@ https://recruting.dkcapital.ge/api/public/categories (კატეგორი�
 https://recruting.dkcapital.ge/api/public/vacancy/v2/search?type=vip (VIP ვაკანსიების წამოღება)
 https://recruting.dkcapital.ge/api/public/vacancy/v2/search?page=undefined&id=2&type=w_s (type ის მიხედვით წამოღება)
 https://recruting.dkcapital.ge/api/public/vacancy/v2/search?page=&searchKeyword=კურიერი&region=&minPrice=&maxPrice= (სერჩის API მისამართი) (მაგ:კურიერი)
+
+//მართვის მოწმობის გამოცდა
+https://emsi.ge/c/img/ticket_images/4.jpg (ფოტოს მაგალითი)
+https://emsi.ge/c/exam/newTickets?language=geo&quantity=200&main_cat=B,%20B1&chapters=all (თვითონ API)
+თვითონ API-ს მოყვება    "img": "2.jpg", ეგ უნდა ჩაჯდეს https://emsi.ge/c/img/ticket_images/${აი აქ}
 
