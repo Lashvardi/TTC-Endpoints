@@ -29,3 +29,17 @@ https://emsi.ge/c/img/ticket_images/4.jpg (ფოტოს მაგალით
 https://emsi.ge/c/exam/newTickets?language=geo&quantity=200&main_cat=B,%20B1&chapters=all (თვითონ API)
 თვითონ API-ს მოყვება    "img": "2.jpg", ეგ უნდა ჩაჯდეს https://emsi.ge/c/img/ticket_images/${აი აქ}
 
+
+// tkt.ge
+https://gateway.tkt.ge/Shows/Pinned დაპინული გამორჩეული ღონისძიებები
+https://gateway.tkt.ge/Events/Top ტოპ ღონისძიებები
+https://gateway.tkt.ge/Events/Upcoming ღონისძიებები რომელიც მალე იქნება
+https://gateway.tkt.ge/Movies/List ფილმების ჩამონათვალი
+https://gateway.tkt.ge/Events/Today დღევანდელი ღონისძიებები
+https://gateway.tkt.ge/Shows/List?categoryId=2 კონცერტების ჩამონათვალი
+
+// kinoafisha.ge
+თავის სეანსებით
+https://kinoafisha.ge/api/v1/session/main/list/ ფილმის პოსტერით და დასახელებით ასევე რა დღეებშია სეანსები ეგაც მოყვება
+ცოტა რთულია.
+
