@@ -37,7 +37,7 @@ https://gateway.tkt.ge/Events/Upcoming ღონისძიებები რ�
 https://gateway.tkt.ge/Movies/List ფილმების ჩამონათვალი
 https://gateway.tkt.ge/Events/Today დღევანდელი ღონისძიებები
 https://gateway.tkt.ge/Shows/List?categoryId=2 კონცერტების ჩამონათვალი
-
+ფოტოების ჩასასმელად გამოიღენეთ https://static.tkt.ge/img/${photoId} ყველგან არ არის საჭირო
 // kinoafisha.ge
 თავის სეანსებით
 https://kinoafisha.ge/api/v1/session/main/list/ ფილმის პოსტერით და დასახელებით ასევე რა დღეებშია სეანსები ეგაც მოყვება
